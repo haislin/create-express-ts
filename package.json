@@ -1,12 +1,17 @@
 {
-  "name": "create-express-ts",
+  "name": "@haislin/create-express-ts",
   "version": "1.0.0",
   "description": "",
+  "bin": "./bin/cli.js",
   "scripts": {
     "dev": "nodemon --exec ts-node --files ./src/index.ts",
     "build": "tsc --build tsconfig.build.json",
     "start": "npm run build && node  ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haislin/express-ts-starter"
   },
   "author": "",
   "license": "ISC",
