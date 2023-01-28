@@ -8,6 +8,10 @@
     "start": "npm run build && node  ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haislin/create-express-ts-starter"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
