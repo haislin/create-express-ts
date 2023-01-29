@@ -9,7 +9,7 @@ Create-Express-ts is a package that provides a template for a Node.js Express se
 Install with npx
 
 ```bash
-  npx install @haislin/create-express-ts my-project
+  npx @haislin/create-express-ts@latest my-project
   cd my-project
 ```
 
